@@ -11,6 +11,6 @@ get '/update' do
 end
 
 get '/stylesheet.css' do
-  header 'Content-Type' => 'text/css; charset=utf-8'
+  headers 'Content-Type' => 'text/css; charset=utf-8'
   sass :stylesheet
 end
