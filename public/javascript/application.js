@@ -1,6 +1,14 @@
 $.timer(300000, function (timer) {
   // ajax get a the twitter update ever 5 minutes
-  playAlert();
+
+  $.ajax({
+    url: "/update",
+    cache: true,
+    success: function(html){
+      $("#message").html(html);
+      playAlert();
+    }
+  });
 });
 
 function playAlert(){
