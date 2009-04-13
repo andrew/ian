@@ -9,10 +9,14 @@ get '/' do
 end
 
 get '/update' do
-  Twitter::Search.new('red dwarf').first['text']
+  speak
 end
 
 get '/stylesheet.css' do
   headers 'Content-Type' => 'text/css; charset=utf-8'
   sass :stylesheet
+end
+
+def speak
+  Twitter::Search.new('red dwarf').first['text']
 end
