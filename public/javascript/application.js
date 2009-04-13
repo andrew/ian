@@ -1,4 +1,21 @@
-$.timer(300000, function (timer) {
+$(document).ready(function(){
+  var timer = $.timer(300000, function (timer) {
+    getUpdate();
+  });
+
+  $('body').dblclick(function(){
+    getUpdate();
+  });
+
+});
+
+function playAlert(){
+  // this only works in safari
+  var audio = new Audio("../audio/beep.wav");
+  audio.play();
+}
+
+function getUpdate(){
   var before = $("#message").html();
   $.ajax({
     url: "/update",
@@ -16,10 +33,5 @@ $.timer(300000, function (timer) {
       }
     }
   });
-});
-
-function playAlert(){
-  // this only works in safari
-  var audio = new Audio("../audio/beep.wav");
-  audio.play();
+  timer.reset;
 }
