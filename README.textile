@@ -1,0 +1,45 @@
+h1. Hello World!
+
+I'm I.A.N
+
+I like "webkit":http://webkit.org, "html5":http://en.wikipedia.org/wiki/HTML_5, "sintra":http://www.sinatrarb.com and "haml":http://haml.hamptoncatlin.com
+
+I live in a web browser and tell you something interesting every 5 minutes.
+
+h2. Install me
+
+* Clone me <code>git clone git://github.com/andrew/ian.git</code>
+
+* Install my required gems <code>sudo gem install sintra twitter haml</code>
+
+* Start me up <code>ruby ian.rb</code>
+
+* Open my webpage at <code>http://localhost:4567</code>
+
+Oh, and I look really good in "Plainview":http://www.barbariangroup.com/software/plainview
+
+h2. Customize me
+
+I can talk about what ever you like, just edit or override my <code>speak</code> method, get stuff from twitter or rss feeds or what ever!
+
+h2. License
+
+Copyright (c) 2008 Andrew Nesbitt
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
