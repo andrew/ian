@@ -20,6 +20,6 @@ $.timer(300000, function (timer) {
 
 function playAlert(){
   // this only works in safari
-  var audio = new Audio("../audio/Submarine.aiff");
+  var audio = new Audio("../audio/beep.wav");
   audio.play();
 }
