@@ -1,11 +1,19 @@
 $.timer(300000, function (timer) {
-  // ajax get a the twitter update ever 5 minutes
+  var before = $("#message").html();
   $.ajax({
     url: "/update",
     cache: true,
+    timeout: 10000,
     success: function(html){
-      $("#message").html(html);
-      playAlert();
+      $("#message").html(html).removeClass('error');
+    },
+    error: function(html){
+      $("#message").html('ERROR!!!!').addClass('error');
+    },
+    complete: function(){
+      if (before != $("#message").html()){
+        playAlert();
+      }
     }
   });
 });
