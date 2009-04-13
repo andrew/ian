@@ -2,7 +2,7 @@ h1. Hello World!
 
 I'm I.A.N
 
-I like "webkit":http://webkit.org, "html5":http://en.wikipedia.org/wiki/HTML_5, "sintra":http://www.sinatrarb.com and "haml":http://haml.hamptoncatlin.com
+I like "ruby":http://ruby-lang.org, "webkit":http://webkit.org, "html5":http://en.wikipedia.org/wiki/HTML_5, "sintra":http://www.sinatrarb.com, "jQuery":http://jquery.com and "haml":http://haml.hamptoncatlin.com
 
 I live in a web browser and tell you something interesting every 5 minutes. Double click anyone and I'll say something right then too.
 
