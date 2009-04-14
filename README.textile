@@ -10,7 +10,7 @@ h2. Install me
 
 * Clone me <code>git clone git://github.com/andrew/ian.git</code>
 
-* Install my required gems <code>sudo gem install sintra twitter haml</code>
+* Install my required gems <code>sudo gem install sinatra twitter haml</code>
 
 * Start me up <code>ruby ian.rb</code>
 
