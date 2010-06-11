@@ -18,5 +18,5 @@ get '/stylesheet.css' do
 end
 
 def speak
-  Twitter::Search.new('red dwarf').first['text']
+  Twitter::Search.new('red dwarf').to_a.first['text']
 end
