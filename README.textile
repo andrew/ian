@@ -20,7 +20,7 @@ Oh, and I look really good in "Plainview":http://www.barbariangroup.com/software
 
 h2. Customize me
 
-I can talk about what ever you like, just edit or override my <code>speak</code> method, get stuff from twitter or rss feeds or what ever!
+I can talk about what ever you like, just edit or override my <code>speak</code> method, get stuff from twitter or rss feeds or what ever! By default i'll talk about 'Red Dwarf' from Twitter messages.
 
 h2. License
 
