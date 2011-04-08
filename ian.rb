@@ -1,6 +1,6 @@
 require 'rubygems'
-require 'sinatra'
-require 'twitter'
+require 'bundler'
+Bundler.require
 
 set :haml, {:format => :html5 }
 
