@@ -1,5 +1,5 @@
 html, body
-  :background #000 url('/images/robot.png') 95% 90% no-repeat
+  :background #555555
   :color #fff
   :height 100%
   :font-family Courier New, Courier New, Courier6, monospace
@@ -7,13 +7,18 @@ html, body
   :padding 0
 
   #message
-    :margin 150px 250px 0
+    :border-radius 10px
+    :margin 160px auto 0
+    :width 70%
+    :max-height 70%
+    :overflow-x hidden
+    :word-wrap break-word
+    :overflow-y hidden
     :padding 2%
     :background #fff
     :color #336392
-    :position absolute
     :font
-      :size 400%
+      :size 300%
       :weight bold
     img
       :width 30px
@@ -31,17 +36,32 @@ html, body
       :padding-left 150px
       :min-height 100px
 
-#scotruby
-  :width 180px
-  :height 78px
-  :background url('/images/src.png') no-repeat
-  :position absolute
-  :top 20px
-  :right 20px
-#forward
-  :width 207px
-  :height 43px
-  :background url('/images/forward.png') no-repeat
+#lnug
+  :width 200px
+  :height 144px
+  :background url('/images/lnug.png') no-repeat
   :position absolute
   :top 20px
   :left 20px
+#forward
+  :width 200px
+  :height 61px
+  :background url('/images/forward.png') no-repeat
+  :position absolute
+  :top 20px
+  :right 20px
+
+#twitter
+
+#wifi, #twitter
+  :position absolute
+  :bottom 0
+  :left 0
+  :padding 20px
+  :font-weight bold
+  :font-size 30px
+
+#twitter
+  :right 0
+  :left auto
+  :text-align right
