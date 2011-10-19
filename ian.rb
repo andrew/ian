@@ -5,7 +5,7 @@ get '/' do
 end
 
 get '/update' do
-  @tweet = Twitter::Search.new.q("ldndevops").fetch.first
+  @tweet = Twitter::Search.new.q("#erlang").fetch.first
   haml :tweet
 end
 
