@@ -5,7 +5,7 @@ get '/' do
 end
 
 get '/update' do
-  @tweet = Twitter::Search.new.q("#puppet").fetch.first
+  @tweet = Twitter::Search.new.q("#ldnpuppet").fetch.first
   haml :tweet
 end
 
