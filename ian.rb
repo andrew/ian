@@ -1,6 +1,4 @@
-require 'rubygems'
-require 'bundler'
-Bundler.require
+HASHTAG = '#forward'
 
 set :haml, {:format => :html5 }
 
@@ -9,14 +7,11 @@ get '/' do
 end
 
 get '/update' do
-  speak
+  @tweet = Twitter::Search.new.q(HASHTAG).fetch.first
+  haml :tweet
 end
 
 get '/stylesheet.css' do
   headers 'Content-Type' => 'text/css; charset=utf-8'
   sass :stylesheet
-end
-
-def speak
-  Twitter::Search.new.q("#scotruby").fetch.first.text
 end

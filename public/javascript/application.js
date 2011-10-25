@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var timer = $.timer(300000, function (timer) {
+  var timer = $.timer(12000, function (timer) {
     getUpdate();
   });
 

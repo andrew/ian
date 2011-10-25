@@ -5,11 +5,19 @@
     %script{:type => "text/javascript", :src   => "/javascript/jquery.js" }
     %script{:type => "text/javascript", :src   => "/javascript/jquery.timer.js" }
     %script{:type => "text/javascript", :src   => "/javascript/application.js" }
-    %meta{:name => 'keywords', :content => 'Ian, nerd, mac, sinatra, ruby, imac'}
-    %meta{:name => 'description', :content => 'I.A.N. - Intelligent Artificial Nerd'}
+    %meta{:name => 'keywords', :content => "#{HASHTAG}, Forward Technology"}
+    %meta{:name => 'description', :content => "#{HASHTAG} dashboard"}
     %meta{:name => 'author', :content => 'Andrew Nesbitt'}
-    %title
-      I.A.N.
+    %title= HASHTAG
   %body
-    %div{:id => 'message'}
-      Hi, I'm I.A.N.
+    #logo
+    #forward
+    #message
+      Welcome to
+      = HASHTAG
+    #wifi
+      wifi: ForwardStage
+      %br
+      pass: f0rw4rdst4g3
+    #twitter
+      ="@forwardtek<br/>#{HASHTAG}"

@@ -1,22 +1,69 @@
+$background: #fff
+$foreground: #222
+
 html, body
-  :background #000 url('/images/robot.png') 95% 90% no-repeat
-  :color #fff
-  :height 100%
+  :background $background
+  :color $foreground
   :font-family Courier New, Courier New, Courier6, monospace
   :margin 0
   :padding 0
 
   #message
-    :margin 150px 250px 0
+    :border-radius 10px
+    :margin 160px auto 0
+    :width 70%
+    :max-height 70%
+    :overflow-x hidden
+    :word-wrap break-word
+    :overflow-y hidden
     :padding 2%
-    :background #fff
-    :color #336392
-    :position absolute
+    :background $foreground
+    :color $background
     :font
-      :size 400%
+      :size 300%
       :weight bold
+    img
+      :width 30px
+      :height 30px
+      :float left
+      :margin-right 10px
+    .user
+      :font-size 25%
+      :display block
+      :color $foreground
+      :margin-bottom 20px
 
     &.error
-      :background #fff url('/images/error.png') no-repeat 10px 10px
+      :background-image url('/images/error.png')
+      :background-repeat no-repeat
+      :background-position 10px 10px
       :padding-left 150px
       :min-height 100px
+
+#logo
+  :width 250px
+  :height 200px
+  :background url('/images/logo.png') no-repeat
+  :position absolute
+  :top 10px
+  :left 10px
+#forward
+  :width 200px
+  :height 61px
+  :background url('/images/forward.png') no-repeat
+  :position absolute
+  :top 20px
+  :right 20px
+
+#wifi, #twitter
+  :position absolute
+  :bottom 0
+  :left 0
+  :padding 20px
+  :font-weight bold
+  :font-size 30px
+
+#twitter
+  :right 0
+  :left auto
+  :text-align right
