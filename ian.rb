@@ -1,4 +1,4 @@
-HASHTAG = '#forward'
+HASHTAG = '#mmme'
 
 set :haml, {:format => :html5 }
 
