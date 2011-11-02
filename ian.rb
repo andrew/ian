@@ -1,4 +1,4 @@
-HASHTAG = '#mmme'
+HASHTAG = '#devtank'
 
 set :haml, {:format => :html5 }
 
