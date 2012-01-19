@@ -1,4 +1,4 @@
-HASHTAG = '#forward'
+HASHTAG = '#bigdatalondon'
 
 set :haml, {:format => :html5 }
 
